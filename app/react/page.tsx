@@ -14,7 +14,7 @@ export default function ReactPage() {
   // Lọc dữ liệu dựa trên search query
   const filteredData = searchQuery.trim() ? searchQuestions(searchQuery) : reactQAData;
 
-  const toggleExpanded = id => {
+  const toggleExpanded = (id: string | number) => {
     setExpandedItems(prev => {
       const newSet = new Set(prev);
       if (newSet.has(id)) {
