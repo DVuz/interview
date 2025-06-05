@@ -23,13 +23,9 @@ export default function Home() {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center gap-8 p-8">
         {/* Title */}
-        <div className="text-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Interview Questions</h1>
-          <p className="text-lg md:text-xl text-gray-200">Chọn công nghệ bạn muốn ôn tập</p>
-        </div>
 
         {/* Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 mt-8">
+        <div className="flex flex-col sm:flex-row gap-4 mt-80">
           <Button
             variant="default"
             size="lg"
